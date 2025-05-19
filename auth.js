@@ -33,9 +33,13 @@ window.cadastro = async function () {
       cosnt caminho = window.location.pathname
     if(caminho.includes('login')) {
       login() 
-    } else if (caminho.includes('cadastro') {
+    } else if (caminho.includes('cadastro')){
       cadastro()
     }
+    }
+  }     
+
+
+
 
     
-  }
