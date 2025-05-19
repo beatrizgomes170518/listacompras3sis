@@ -68,3 +68,5 @@ getUser().then(carregarLista)
         adicionarItem()
       
       }
+    }
+  }    
