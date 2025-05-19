@@ -36,8 +36,3 @@ window.cadastro = async function () {
     } else if (caminho.includes('cadastro')){
       cadastro()
     }
-    
-   
-
-
-
