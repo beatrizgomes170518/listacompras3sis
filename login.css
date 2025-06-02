@@ -18,7 +18,7 @@
 
 }
 
-/** -------- reset css--------*/
+/*-------- reset css--------*/
 * {
     margin: 0;
     padding: 0;
@@ -30,4 +30,27 @@ body {
     font-family: var(--fonte);
     background: #942a9b;
 background: linear-gradient(90deg, rgb(42, 91, 155) 0%, rgb(126, 87, 199) 80%, rgba(237, 221, 83, 1) 100%);
+
+display: flex;
+justify-content: center;
+min-height: 100vh;
+padding: 20px;
 }
+/*--------container-------*/
+.container {
+    background: var(--cor-bg);
+    padding: clamp(2rem, 5vm, 3rem);
+    border-radius: var (--raio);
+    box-shadow: 0 8px 24px var(--cor-sombra);
+    max-width: 400px;
+    text-align: center;
+}
+
+ /*--------título-----------*/
+ .título {
+  font-size: clamp(1.5rem, 2vm + 1rem, 2rem);
+  color: ;
+ }
+
+
+

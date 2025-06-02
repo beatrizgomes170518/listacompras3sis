@@ -65,11 +65,7 @@ getUser().then(carregarLista)
   document.addEventlistener('keydown', function (event) {
     if (event.key === 'Enter'){
       if (event.key === 'Enter') {
-      adicionarItem()   
-      }      
+        adicionarItem()
       
-  
-       
-      
-      
+      }
     
