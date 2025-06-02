@@ -18,7 +18,7 @@
 
 }
 
-/*-------- reset css--------*/
+/** -------- reset css--------*/
 * {
     margin: 0;
     padding: 0;
@@ -28,29 +28,31 @@
 /*-------body----------*/
 body {
     font-family: var(--fonte);
-    background: #942a9b;
-background: linear-gradient(90deg, rgb(42, 91, 155) 0%, rgb(126, 87, 199) 80%, rgba(237, 221, 83, 1) 100%);
-
-display: flex;
-justify-content: center;
-min-height: 100vh;
-padding: 20px;
+    background: #2A7B9B;
+background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 80%, rgba(237, 221, 83, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
 }
-/*--------container-------*/
+
+
+/* --------container-------*/
 .container {
     background: var(--cor-bg);
-    padding: clamp(2rem, 5vm, 3rem);
-    border-radius: var (--raio);
+    padding: clamp(2rem, 5vw, 3rem);
+    border-radius: var(--raio);
     box-shadow: 0 8px 24px var(--cor-sombra);
+    width: 100%;
     max-width: 400px;
     text-align: center;
 }
 
- /*--------título-----------*/
- .título {
-  font-size: clamp(1.5rem, 2vm + 1rem, 2rem);
-  color: #93A3B1;
- }
-
-
-
+/*-------título------------*/
+.titulo {
+    font-size: clamp(1.5rem, 2vw + 1rem, 2rem);
+    color: var(--cor-texto);
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
