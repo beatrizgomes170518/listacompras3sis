@@ -49,6 +49,13 @@ background: linear-gradient(90deg, rgb(155, 42, 121) 0%, rgb(87, 191, 199) 80%, 
     text-align: center;
 }
 
+/**------logo-----------*/
+#logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: var(--raio);
+}
 /*-------título------------*/
 .titulo {
     font-size: clamp(1.5rem, 2vw + 1rem, 2rem);
